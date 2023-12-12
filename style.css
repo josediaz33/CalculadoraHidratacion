@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
 
 body {
     background: #f6f5f7; 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #3E363F;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 #detalle{
-    background: #FF416C;
+    background: #1E3552;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -58,8 +58,8 @@ button {
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	background-color: #1E3552;
+	border: 1px solid #1E3552;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -69,3 +69,21 @@ button {
 button:active {
 	transform: scale(0.95);
 }
+
+#error{
+    display: none;
+    color: red;
+}
+
+.resultado {
+    margin-top: 20px;
+}
+
+#volumen, #mantenimiento {
+    display: none;
+    color: #2a79da;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
